@@ -1,1 +1,1 @@
-# VIVE-MR-Unity-Template
+# MR-Unity-Template
