@@ -44,36 +44,13 @@ Packages/
 └── manifest.json                 # Package dependencies including visionOS SDK
 ```
 
-## Package Dependencies
-
-This template includes the following key packages:
-
-- **PolySpatial for visionOS** (v2.3.1) - Unity's official visionOS development framework
-- **visionOS XR Plugin** (v2.2.4) - Native visionOS XR support and integration
-- **XR Interaction Toolkit** (v3.2.0) - Unity's XR interaction system
-- **XR Hands** (v1.6.1) - Hand tracking support for natural interactions
-- **Universal Render Pipeline** (v17.0.4) - Optimized rendering pipeline
-- **Input System** (v1.14.0) - Modern input handling system
-- **AI Navigation** (v2.0.8) - Navigation and pathfinding for 3D environments
-
-## Usage
-
-1. **Development Environment**: Follow the [Qiita setup guide](https://qiita.com/afjk/items/099c75f8285f19dfd470) to configure your visionOS development environment
-2. **Scene Setup**: Start with the included `SampleScene.unity` which contains basic MR components
-3. **Build Settings**: The project is pre-configured for visionOS builds targeting Apple Vision Pro
-4. **Testing**: Deploy to your Apple Vision Pro device or test in the visionOS Simulator
-
 ## Requirements
 
 - **Unity 6000.0.48f1** or later
 - **Apple Vision Pro** device or visionOS Simulator
-- **macOS** with Xcode for building
+- **mac(Apple Silicon)** with Xcode for building
 - **Apple Developer Account** for device deployment
 - **PolySpatial package** for visionOS development
-
-## Contributing
-
-Feel free to submit issues and enhancement requests. This template is designed to be a starting point for visionOS MR development.
 
 ## License
 
@@ -85,7 +62,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - 🔗 [Unity PolySpatial Documentation](https://docs.unity3d.com/Packages/com.unity.polyspatial@2.3/manual/index.html)
 - 🔗 [Apple visionOS Developer Documentation](https://developer.apple.com/visionos/)
 - 🔗 [Unity XR Interaction Toolkit](https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@3.2/manual/index.html)
-- 🔗 [Unity visionOS Development](https://unity.com/features/visionos)
 
 ---
 
